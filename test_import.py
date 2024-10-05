@@ -2,7 +2,7 @@
 import lab4a
 import lab4b
 import lab4c
-
+import lab4d
 
 set1 = {1, 2, 3, 4, 5}
 set2 = {2, 1, 0, -1, -2}
@@ -44,3 +44,19 @@ print(york)
 
 common = lab4c.shared_values(dict_york, dict_newnham)
 print(common)
+
+
+
+str1 = 'Hello World!!'
+str2 = 'Seneca College'
+num1 = 1500
+num2 = 1.50
+
+print(lab4d.first_five(str1))
+print(lab4d.first_five(str2))
+print(lab4d.last_seven(str1))
+print(lab4d.last_seven(str2))
+print(lab4d.middle_number(num1))
+print(lab4d.middle_number(num2))
+print(lab4d.first_three_last_three(str1, str2))
+print(lab4d.first_three_last_three(str2, str1))
